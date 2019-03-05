@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu methods should work 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "payload": Object {
+          "option": "Option 2",
+        },
+        "type": "someAction",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`Menu renders renders the correct UI based on state 1`] = `
+<div>
+  <h1
+    testID="Menu.headingText"
+  >
+    What is your favourite song?
+  </h1>
+  <ul>
+    <li>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+        testID="Menu.button.0"
+        type="button"
+      >
+        Option 1
+      </button>
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "red",
+          }
+        }
+        testID="Menu.button.1"
+        type="button"
+      >
+        Option 2
+      </button>
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+        testID="Menu.button.2"
+        type="button"
+      >
+        Option 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Menu renders renders with minimum required props 1`] = `
+<div>
+  <ul>
+    <li>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+        testID="Menu.button.0"
+        type="button"
+      >
+        Option 1
+      </button>
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+        testID="Menu.button.1"
+        type="button"
+      >
+        Option 2
+      </button>
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+        testID="Menu.button.2"
+        type="button"
+      >
+        Option 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
